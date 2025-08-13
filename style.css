@@ -1,0 +1,53 @@
+body {
+  text-align: center; /* center content horizontally */
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: rgb(0, 51, 102); /* deep blue */
+  color: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 2.5rem;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* slight shadow */
+}
+
+
+p {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #555; /* soft gray */
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styling */
+#btn {
+  display: block;             /* forces button to take full width line */
+  margin: 0 auto 20px auto;   /* centers it and adds space below */
+  background-color: rgb(0, 51, 102);
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(0, 41, 82);
+}
+
+/* Image styling */
+#myImage {
+  display: none;     /* ensures image starts on a new line */
+  margin: 0 auto;     /* centers the image */
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
